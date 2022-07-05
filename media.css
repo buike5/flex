@@ -69,13 +69,19 @@ a {
 
 @media screen and (max-width:375px) {
     body {
-        background-color: magenta;
+        background-color:palevioletred ;
         background-image: url(./bg-intro-mobile.png);
         background-attachment: fixed;
-        margin-left: 5%;
+        margin-left: 10%;
     }
 
     main {
         flex-direction: column;
+    }
+
+    #fortable {
+        padding: 0%;
+        margin: 0%;
+        border: 0ch;
     }
 }
