@@ -9,6 +9,7 @@ main {
     display: flex;
     justify-content: center;
     place-items: center;
+    color:white;
 }
 
 .ts {
@@ -61,7 +62,7 @@ a {
 
 @media screen and (max-width:1440px) {
     body {
-        background-color: palevioletred;
+        background-color: hsl(0, 100%, 74%);
         background-image: url(./bg-intro-desktop.png);
         background-attachment: fixed;
     }
@@ -69,7 +70,7 @@ a {
 
 @media screen and (max-width:375px) {
     body {
-        background-color:palevioletred ;
+        background-color:hsl(0, 100%, 74%) ;
         background-image: url(./bg-intro-mobile.png);
         background-attachment: fixed;
         margin-left: 10%;
