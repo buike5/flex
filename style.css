@@ -20,6 +20,7 @@ main {
     border-radius: 20px;
     justify-content: center;
     overflow: hidden;
+    color: white;
 
 
 }
@@ -39,13 +40,28 @@ main {
     padding: 5%;
 }
 
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
 button {
-    background-color: inherit;
+    background-color: white;
     border-radius: 10px;
+    border-style: solid;
+    border-color: white;
 
 }
 
 button:hover {
-    background-color: white;
-    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+    border-color: white;
 }
